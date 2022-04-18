@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 const requestp = require('./requestAsPromise');
 const integrationId = 2429;
 
-const cert = fs.readFileSync('gifbot-private-key.pem');
+const cert = fs.readFileSync('k7bot.2022-04-18.private-key');
 const token = jwt.sign({ iss: integrationId },
   cert, {
     algorithm: 'RS256',
