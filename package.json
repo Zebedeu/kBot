@@ -1,0 +1,8 @@
+{
+  "name": "kBot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Zebedeu/kBot.git",
+  "author": "Marcio Zebedeu",
+  "license": "MIT"
+}
